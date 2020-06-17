@@ -4,38 +4,91 @@ body{
 
 aside{
     width: 200px;
-    height: 750px;
+    height: 850px;
     padding-left: 0;
     margin: 0;
     float: left;
     background-color: aliceblue;
 }
 
-article{
-    align-items: center;
-}
 section:first-of-type{
     width: 750px;
-    height: 100px;
+    height: 155px;
+    margin-left: 3in;
     margin-bottom: 30px;
     background-color: cadetblue;
     display: flex;
 }
 
+h1{
+    font-size: 15px;
+    margin-left: 21px;
+}
+
+article textarea{
+    width: 700px;
+    height: 70px;
+    border: 1px solid black;
+    margin-left: 21px;
+}
+
+#submitPublicacion{
+    width: 90;
+    height: 25;
+    font-size: 15px;
+    background-color: rgb(168, 214, 235);
+    font-weight: normal;
+    border: transparent ;
+    margin-left: 670px;
+}
+
 main{
     width: 750px;
-    height: 100px;
-    background-color: cornsilk;
+    height: 150px;
+    margin-left: 3in;
     margin-bottom: 20px;
+    background-color: cornsilk;
     display: flex;
+    
+}
+
+main article {
     flex-direction: column-reverse;
+    width: 700px;
+    height: 90px;
+    margin-left: 21px;
+}
+
+main input{
+    width: 700px;
+    height: 90px;
 }
 
 section:nth-of-type(2){
     width: 750px;
     height: 500px;
-    background-color: darkgray;
+    margin-left: 3in;
     margin-bottom: 20px;
+    background-color: darkgray;
     display: flex;
+}
+
+#inicio{
     flex-direction: column-reverse;
+    width: 700px;
+    height: 150px;
+    margin-left: 21px;
+    border: black solid 1px;
+    background-color: lightgrey;
+}
+
+#postsinicio{
+    width: 692px;
+    height: 90px;
+    margin-bottom: 5px;
+}
+
+#comentarios{
+    width: 692px;
+    height: 40px;
 }
