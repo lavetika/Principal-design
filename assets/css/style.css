@@ -1,0 +1,41 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+aside{
+    width: 200px;
+    height: 750px;
+    padding-left: 0;
+    margin: 0;
+    float: left;
+    background-color: aliceblue;
+}
+
+article{
+    align-items: center;
+}
+section:first-of-type{
+    width: 750px;
+    height: 100px;
+    margin-bottom: 30px;
+    background-color: cadetblue;
+    display: flex;
+}
+
+main{
+    width: 750px;
+    height: 100px;
+    background-color: cornsilk;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+section:nth-of-type(2){
+    width: 750px;
+    height: 500px;
+    background-color: darkgray;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+}
